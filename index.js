@@ -1,11 +1,11 @@
 let wat = document.getElementsByClassName("whatever")[0];
+function fuckthis(){
+  wat.onclick = fun;
+}
+window.onload = fuckthis;
 let toggle = false;
-console.log(wat);
-wat.onClick = alert("f");
-//function(){wat.innerHTML = "wee"};
+
 function fun(){
-  //wat.innerHTML = "wee";
-  //var wat = document.getElementsByClassName("whatever")[0];
   toggle = !toggle;
   if(toggle){
     wat.innerHTML = "wee";
