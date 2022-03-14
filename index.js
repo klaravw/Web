@@ -2,7 +2,7 @@ let wat = document.getElementsByClassName("whatever")[0];
 function fuckthis(){
   wat.onclick = fun;
 }
-window.onload = fuckthis;
+//window.onload = fuckthis;
 let toggle = false;
 
 function fun(){
